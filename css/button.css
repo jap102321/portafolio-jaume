@@ -14,7 +14,7 @@
 
 .button.is-secondary{
   background: unset;
-  border: 3px solid var(--primary);
+  border: 1px solid var(--primary);
   color:var(--primary);
 }
 

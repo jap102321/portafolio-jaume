@@ -1,0 +1,93 @@
+.projects{
+  margin-block-start: 40px;
+
+}
+
+
+.projects{
+
+}
+
+.projects a{
+  text-decoration: none;
+  color: var(--white);
+  padding-block-end: 1rem;
+}
+/* Detalles iniciales de los proyectos */
+
+
+.projectDetails{
+  text-align: center;
+  padding-block-end: 80px;
+}
+
+#projectDetails1{
+  font: var(--body1);
+
+}
+
+#projectDetails2{
+  font: var(--headline5);
+}
+
+#projectDescription{
+  font:var(--body1);
+  padding-bottom: 1rem;
+}
+
+.projectsButton{
+  inline-size:24rem;
+}
+
+#projectButton{
+  inline-size:24rem;
+  margin-block-end: 1rem;
+}
+
+/* Proyecto 1 LeonidasEsteban.com */
+
+.project-1{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-block-end: 1rem;
+  justify-content: space-around;
+}
+
+.titleProject-1{
+   padding-block-start: 40px;
+}
+
+.titleProject-1 button{
+  font:var(--headline5);
+  text-transform: lowercase;
+  box-shadow: 0px 2px 0px 2px white;
+  padding-block-end: 1rem;
+  inline-size: 24rem;
+}
+
+
+.insideProject1{
+ max-inline-size:449px ;
+}
+
+
+@media screen and (min-width:768px){
+  .project-1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project1Image{
+    order: 2;
+  }
+
+  #projectButton{
+    inline-size: unset;
+    margin-inline-end: 1rem;
+  }
+}
+
+
+
+
