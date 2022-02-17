@@ -3,5 +3,9 @@
 .header{
   display: flex;
   justify-content: space-between;
-  align-items:center ;
+  align-items:center;
+  block-size: 80px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(5px);
 }
