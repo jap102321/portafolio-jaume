@@ -39,13 +39,16 @@
 }
 
 .projectsButton{
-  inline-size:23rem;
-  text-align: center;
+  display: flex;
+  /* inline-size:23rem; */
+  flex-direction: column;
+  text-align: start;
   margin-inline-start:20px;
 }
 
 #projectButton{
-  inline-size:24rem;
+  /* inline-size:24rem; */
+
   margin-block-end: 1rem;
 }
 
