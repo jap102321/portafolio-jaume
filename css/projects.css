@@ -3,7 +3,18 @@
   text-align:center;
 }
 
+.projects img{
+  text-align: center;
 
+}
+
+.marvolImg{
+  margin-inline-start: 5rem;
+}
+
+.netnetImg{
+  margin-inline-start: 1rem;
+}
 
 
 .projects a{
@@ -69,20 +80,25 @@
 
 .titleProject{
    padding-block-start: 40px;
+   text-align: start;
 }
 
 .titleProject button{
   font:var(--headline5);
+  text-align: center;
   text-transform: lowercase;
   box-shadow: 0px 2px 0px 2px white;
   padding-block-end: 1rem;
-  inline-size: 24rem;
+  /* inline-size: 24rem; */
 }
+
 
 
 .insideProject{
- max-inline-size:449px ;
+ max-inline-size:420px;
+ text-align: start;
 }
+
 
 
 @media screen and (min-width:768px){
