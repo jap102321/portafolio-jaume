@@ -4,6 +4,10 @@
 @import './menu.css';
 @import './projects.css';
 @import './client.css';
+@import './social.css';
+@import './footer.css';
+@import './form.css';
+@import './title.css';
 
 
 
@@ -24,11 +28,14 @@
   --caption: 400 0.75rem/1.2135000228881836rem Poppins;
 }
 
+
 .body {
   color: var(--primary);
   background:var(--gradient);
   min-block-size: 100vh;
   font: var(--body1);
+  margin: 0;
+
 }
 
 

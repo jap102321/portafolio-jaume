@@ -1,5 +1,6 @@
 .wrapper{
   max-inline-size: 762px;
+  scroll-behavior: smooth;
 }
 
 
@@ -9,6 +10,6 @@
   padding-inline-start:16px ;
   padding-inline-start: 16px;
   margin: auto;
+  scroll-behavior: smooth;
  }
-
 }
