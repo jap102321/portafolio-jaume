@@ -1,0 +1,29 @@
+.client{
+ background: var(--gradientclient);
+ border-radius:24px;
+ text-align: start;
+ margin-block-end: 80px;
+}
+
+.clientPic{
+ text-align: center;
+ padding-block-start: 40px;
+}
+
+.clientReview{
+ padding-inline-start:20px;
+}
+
+#clientOpinion{
+  font: var(--body1);
+  font-weight: bold;
+}
+
+
+@media screen and (min-width:768px) {
+  .client{
+    text-align: center;
+    max-inline-size: 1132px;
+  }
+}
+

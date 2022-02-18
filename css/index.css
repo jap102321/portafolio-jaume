@@ -3,6 +3,7 @@
 @import './wrapper.css';
 @import './menu.css';
 @import './projects.css';
+@import './client.css';
 
 
 
@@ -11,6 +12,7 @@
   --primary: #310a90;
   --green:#42E2B8;
   --gradient:radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  --gradientclient:rgba(255, 255, 255, 0.2); backdrop-filter: blur(40px);
   --headline1: 700 5.9375rem/9.6068754196167rem Poppins;
   --headline2: 700 3.6875rem/5.96637487411499rem Poppins;
   --headline3: 700 3rem/4.854000091552734rem Poppins;

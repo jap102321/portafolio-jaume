@@ -1,23 +1,26 @@
 .projects{
   margin-block-start: 40px;
-
+  text-align:center;
 }
 
 
-.projects{
 
-}
 
 .projects a{
   text-decoration: none;
   color: var(--white);
   padding-block-end: 1rem;
+
 }
 /* Detalles iniciales de los proyectos */
 
+.projects button{
+  color: white;
+  text-align: center;
+}
 
 .projectDetails{
-  text-align: center;
+  text-align:center ;
   padding-block-end: 80px;
 }
 
@@ -36,12 +39,18 @@
 }
 
 .projectsButton{
-  inline-size:24rem;
+  inline-size:23rem;
+  text-align: center;
+  margin-inline-start:20px;
 }
 
 #projectButton{
   inline-size:24rem;
   margin-block-end: 1rem;
+}
+
+#uppercaseName{
+  text-transform: uppercase;
 }
 
 /* Proyecto 1 LeonidasEsteban.com */
@@ -50,8 +59,9 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-block-end: 1rem;
+  padding-block-end: 80px;
   justify-content: space-around;
+
 }
 
 .titleProject{
@@ -76,10 +86,13 @@
   .project{
     display: flex;
     flex-direction: row;
+    align-items: center;
   }
-
-  .projectImage{
+  #marvolImage{
     order: 2;
+  }
+  .projectImage{
+    order: 1;
   }
 
   #projectButton{
