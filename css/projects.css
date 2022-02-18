@@ -40,10 +40,10 @@
 
 .projectsButton{
   display: flex;
-  /* inline-size:23rem; */
+  /* inline-size:22rem; */
   flex-direction: column;
   text-align: start;
-
+  /* margin-inline-start:20px; */
 }
 
 #projectButton{
@@ -96,6 +96,11 @@
   }
   .projectImage{
     order: 1;
+  }
+
+  .projectsButton{
+   text-align: center;
+   padding-inline-start: 3rem;
   }
 
   #projectButton{
